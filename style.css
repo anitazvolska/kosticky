@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container { 
+    background: rgb(250, 135, 206);
+    /* grid */
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns:repeat(2, 1fr)
+
+}
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.one {
+    background: rgb(255, 203, 114);
+
+}
+.two {
+    background: blue;
+
+}
+.three {
+    background: violet;
+
+   }
+.four {
+    background: red;
+
+}
+.five {
+    background: darkblue;
+
+}
+
+.six {
+    background: darkgreen;
+
+}
+
+div {
+    background: orange;
+    border: 1px solid orangered;
+}
+
+
+
+div:hover {
+    background: orangered;
+    border: 1px solid orange;
+}
